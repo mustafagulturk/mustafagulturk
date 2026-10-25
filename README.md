@@ -31,10 +31,10 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/mustafagulturk/qr-siparis"><img src="https://mustafagulturk.github.io/assets/qr/poster.webp" alt="QR Sipariş"></a>
-<h3><a href="https://github.com/mustafagulturk/qr-siparis">QR Sipariş</a> · Restoran sipariş sistemi</h3>
-Müşteri masadaki QR'ı okutup sipariş verir, sipariş anında mutfak ekranına düşer, durumu canlı olarak müşteriye döner.<br><br>
-<code>Next.js 15</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Drizzle</code> <code>SSE</code>
+<a href="https://github.com/mustafagulturk/mobil-okey"><img src="https://mustafagulturk.github.io/assets/okey/poster.webp" alt="Okey Salonu"></a>
+<h3><a href="https://github.com/mustafagulturk/mobil-okey">Okey Salonu</a> · Online çok oyunculu Okey</h3>
+Android için gerçek zamanlı Okey. Desteyi sunucu karıştırır, her hamleyi ve "elim bitti" iddiasını kendisi doğrular; aynı kural motoru telefonda internetsiz antrenman modunda da çalışır. Google Play satın alma ve ödüllü reklam sunucuda doğrulanır. <a href="https://mustafagulturk.github.io/mobil-okey/">▶ Oyna</a><br><br>
+<code>TypeScript</code> <code>React</code> <code>Capacitor</code> <code>Node.js</code> <code>WebSocket</code> <code>SQLite</code>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/mustafagulturk/ocakbasi"><img src="https://mustafagulturk.github.io/assets/ocakbasi/poster.webp" alt="Ocakbaşı"></a>
@@ -45,10 +45,18 @@ Android ve tarayıcıda oynanan 2D restoran oyunu. Hileye karşı sunucu, oyunu 
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/mustafagulturk/qr-siparis"><img src="https://mustafagulturk.github.io/assets/qr/poster.webp" alt="QR Sipariş"></a>
+<h3><a href="https://github.com/mustafagulturk/qr-siparis">QR Sipariş</a> · Restoran sipariş sistemi</h3>
+Müşteri masadaki QR'ı okutup sipariş verir, sipariş anında mutfak ekranına düşer, durumu canlı olarak müşteriye döner.<br><br>
+<code>Next.js 15</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Drizzle</code> <code>SSE</code>
+</td>
+<td width="50%" valign="top">
 <h3><a href="https://github.com/mustafagulturk/turkce-gptr">Çınar</a> · Sıfırdan Türkçe dil modeli</h3>
 Kendi BPE tokenizer'ı ve Llama tarzı transformer'ı (RoPE, SwiGLU, KV cache) PyTorch ile sıfırdan yazıldı, Colab GPU'da eğitildi. Model tamamen tarayıcıda çalışıyor. <a href="https://mustafagulturk.github.io/turkce-gptr/">💬 Sohbeti dene</a><br><br>
 <code>Python</code> <code>PyTorch</code> <code>Transformer</code> <code>JavaScript</code>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/mustafagulturk/mustafagulturk.github.io">Portfolyo</a> · 3D çalışma odası</h3>
 Three.js ile yapılmış etkileşimli bir oda: monitöre tıkla projeleri gör, telefonda oyunu oyna, defterden CV'yi aç. TR/EN dil desteği. <a href="https://mustafagulturk.github.io">🌐 Siteyi aç</a><br><br>
@@ -60,9 +68,9 @@ Three.js ile yapılmış etkileşimli bir oda: monitöre tıkla projeleri gör, 
 ## 🛠️ Kullandığım teknolojiler
 
 **Diller:** TypeScript · JavaScript · C# · Python · SQL<br>
-**Backend:** Node.js (NestJS, Fastify) · ASP.NET Core · REST · WebSocket / SignalR / SSE<br>
+**Backend:** Node.js (NestJS, Fastify, ws) · ASP.NET Core · REST · WebSocket / SignalR / SSE<br>
 **Frontend:** React · Next.js · Tailwind CSS · Three.js<br>
-**Veri:** PostgreSQL · Prisma · Drizzle · EF Core · Redis<br>
+**Veri:** PostgreSQL · SQLite · Prisma · Drizzle · EF Core · Redis<br>
 **Mobil ve oyun:** Capacitor · Phaser · Flutter<br>
 **Yapay zekâ:** PyTorch · Claude API<br>
 **Araçlar:** Docker · GitHub Actions (CI) · Jest · Vitest · xUnit · Git
